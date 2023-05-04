@@ -14,7 +14,7 @@ var hello = 'world';
 //hello = 'world'
 */
 
-
+/*
 //2    magnet
 var needle = 'haystack';
 test();
@@ -30,3 +30,36 @@ function test(){
 //function test()
 //var needle = 'magnet'
 //console.log(needle)
+*/
+
+
+/*
+//3    'super cool' because of var global scope
+var brendan = 'super cool';
+function print(){
+    brendan = 'only okay';
+    console.log(brendan);
+}
+console.log(brendan);
+//after Hoisting
+//var
+//print()
+//brendan = 'super cool'
+//function print()
+//brendan = 'only okay'
+//console.log(brendan)
+//console.log(brendan)
+*/
+
+
+// 4
+var food = 'chicken';
+console.log(food);
+eat();
+function eat(){
+    food = 'half-chicken';
+    console.log(food);
+    var food = 'gone';
+}
+
+
