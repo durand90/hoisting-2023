@@ -71,6 +71,8 @@ function eat(){
 //var food = 'gone'
 */
 
+
+/*
 //5     mean() is not a function
 mean();
 console.log(food);
@@ -92,4 +94,16 @@ console.log(food);
 //console.log(food)
 //food = "fish"
 //console.log(food)
+*/
 
+// 6
+console.log(genre);
+var genre = "disco";
+rewind();
+function rewind() {
+    genre = "rock";
+    console.log(genre);
+    var genre = "r&b";
+    console.log(genre);
+}
+console.log(genre);
