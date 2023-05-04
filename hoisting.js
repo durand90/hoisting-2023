@@ -51,7 +51,7 @@ console.log(brendan);
 //console.log(brendan)
 */
 
-
+/*
 // 4     1st: chicken 2nd: 'half-chicken'
 var food = 'chicken';
 console.log(food);
@@ -69,5 +69,27 @@ function eat(){
 //food = 'half-chicken'
 //console.log(food);
 //var food = 'gone'
+*/
 
+//5     mean() is not a function
+mean();
+console.log(food);
+var mean = function() {
+    food = "chicken";
+    console.log(food);
+    var food = "fish";
+    console.log(food);
+}
+console.log(food);
+//after Hoisting
+//mean()
+//var
+//console.log(food)
+//var mean = function()
+//function()
+//var
+//food = "chicken"
+//console.log(food)
+//food = "fish"
+//console.log(food)
 
