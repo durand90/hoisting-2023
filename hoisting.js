@@ -52,7 +52,7 @@ console.log(brendan);
 */
 
 
-// 4
+// 4     1st: chicken 2nd: 'half-chicken'
 var food = 'chicken';
 console.log(food);
 eat();
@@ -61,5 +61,13 @@ function eat(){
     console.log(food);
     var food = 'gone';
 }
+//after Hoisting
+//var
+//eat()
+//console.log(food)
+//eat()
+//food = 'half-chicken'
+//console.log(food);
+//var food = 'gone'
 
 
