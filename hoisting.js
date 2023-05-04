@@ -123,3 +123,29 @@ console.log(genre);
 //console.log(genre);
 //console.log(genre)
 */
+
+/*
+// 7    1st: san jose 2nd: seattle 3rd: burbank 4th: san jose
+dojo = "san jose";
+console.log(dojo);
+learn();
+function learn() {
+    dojo = "seattle";
+    console.log(dojo);
+    var dojo = "burbank";
+    console.log(dojo);
+}
+console.log(dojo);
+//after Hoisting
+//learn()
+//dojo = "san jose"
+//console.log(dojo)
+//learn();
+//function learn()
+//var
+//dojo = "seattle"
+//console.log(dojo)
+//dojo = "burbank"
+//console.log(dojo)
+*/
+
