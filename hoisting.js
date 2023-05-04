@@ -15,8 +15,8 @@ var hello = 'world';
 */
 
 
-//2    reference error
-//var needle = 'haystack';
+//2    magnet
+var needle = 'haystack';
 test();
 function test(){
     var needle = 'magnet';
