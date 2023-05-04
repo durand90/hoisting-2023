@@ -96,7 +96,9 @@ console.log(food);
 //console.log(food)
 */
 
-// 6
+
+/*
+// 6  1st: undefined 2nd: rock 3rd: r&b 4th: disco
 console.log(genre);
 var genre = "disco";
 rewind();
@@ -107,3 +109,17 @@ function rewind() {
     console.log(genre);
 }
 console.log(genre);
+//after Hoisting
+//var
+//rewind()
+//function rewind()
+//console.log(genre)
+//rewind()
+//rewind()
+//var
+//genre = "rock"
+//console.log(genre)
+//genre = "r&b"
+//console.log(genre);
+//console.log(genre)
+*/
