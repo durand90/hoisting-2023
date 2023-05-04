@@ -149,3 +149,32 @@ console.log(dojo);
 //console.log(dojo)
 */
 
+
+//8      1st: {name: 65}  2nd: {name: 0}
+console.log(makeDojo("Chicago", 65));
+console.log(makeDojo("Berkley", 0));
+function makeDojo(name, students) {
+    const dojo = {};
+    dojo.name = students;
+    if(dojo.students > 50) {
+        dojo.hiring = true;
+    }
+    else if(dojo.students <= 0) {
+        dojo = "closed for now";
+    }
+    return dojo;
+
+}
+//after Hoisting
+//function makeDojo()
+//console.log(makeDojo("Chicago", 65))
+//console.log(makeDojo("Berkley", 0))
+//function makeDojo(name, student)
+//const
+//dojo = {}
+//dojo.name = students
+//if(dojo.students > 50)
+//dojo.hiring = true
+//else if(dojo.students <= 0)
+//dojo = "closed for now"
+//return dojo
